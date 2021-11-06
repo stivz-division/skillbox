@@ -1,11 +1,12 @@
 <?php
 
+use App\Command1;
 use Symfony\Component\Console\Application;
 
 require_once __DIR__ . '/vendor/autoload.php';
 
 $application = new Application();
 
-
+$application->add(new Command1());
 
 $application->run();
