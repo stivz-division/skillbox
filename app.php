@@ -9,6 +9,7 @@ $application = new Application();
 
 $application->add(new Command1());
 $application->add(new \App\Command2());
+$application->add(new \App\Command3());
 
 
 $application->run();
